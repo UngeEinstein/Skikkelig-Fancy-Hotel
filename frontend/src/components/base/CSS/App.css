@@ -1,0 +1,114 @@
+#bookBtn {
+  margin-top: 30px;
+  margin-left: 43%;
+  font-size: 28px;
+}
+
+#lgBtn {
+  position: fixed;
+  right: 270px;
+  top: 15px;
+}
+
+#regBtn {
+  position: fixed;
+  right:10px;
+  top: 15px;
+}
+
+#header {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  margin-top: 20%;
+  font-size: 60px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  padding: 10px;
+}
+
+
+.bg {
+  animation:slide 10s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #99DDFF 50%, #3FD2C7 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:32s;
+}
+
+.bg3 {
+  animation-duration:40s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+.roomTable {
+  border-collapse: collapse;
+  margin: 25px 0;
+  min-width: 1000px;
+  font-size: 0.9em;
+
+  
+  
+}
+
+.roomTable thead tr {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.5em;
+
+}
+
+.roomTable th,
+.roomTable td {
+  padding: 12px 15px;
+}
+
+.roomTable tbody tr{
+  border-bottom: 0.5px solid rgb(0, 51, 102)
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+#roomHeader {
+  position: static;
+  margin-top: 6%;
+}
+
+

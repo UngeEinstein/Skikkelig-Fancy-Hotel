@@ -1,0 +1,53 @@
+{
+  "name": "SkikkeligFancy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@date-io/date-fns": "^1.3.13",
+    "@material-ui/core": "^4.9.4",
+    "@material-ui/pickers": "^3.2.10",
+    "@reduxjs/toolkit": "^1.2.5",
+    "@types/date-fns": "^2.6.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "date-fns": "^2.10.0",
+    "material-ui-datetime-range-picker": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-alert": "^6.0.1",
+    "react-alert-template-basic": "^1.0.0",
+    "react-date-range": "^1.0.3",
+    "react-dates": "^21.8.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-transition-group": "^4.3.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "yarn": "^1.22.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^3.4.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch ./frontend/src/index.js --output ./frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./frontend/src/index.js --output ./frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.stud.idi.ntnu.no/tdt4140-2020/39.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
